@@ -1,0 +1,103 @@
+*{
+      box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;  
+}
+.main-div{
+      background-color: whitesmoke;
+      min-height: 200px;
+      width: 520px;
+      border-radius: 5px;
+      margin: 100px auto;
+      height: auto};
+.div2{
+      width: 100px;
+      margin: 0;
+      overflow: hidden;
+      display: block;
+      float: none;
+}
+.div2 h4{
+      font-size: 26px;
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 10px;
+      box-shadow: 0px 2px #bababa;
+      font-weight: bold;
+      color: crimson;
+      background-color: white;
+      padding: 5px;
+}
+.block{
+      width: 135px;
+      padding: 5px 20px;
+      margin-left: 20px;
+      display: inline-block;
+}
+
+.title{
+      font-size: 20px;
+      text-align: left;
+      font-family: sans-serif;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      color: darkorange;
+      word-spacing: 2.7px;
+
+}
+
+input[type=text]{
+      width: 140px;
+      margin: auto;
+      outline: none;
+      min-height: 50px;
+      border: 2px solid navy;
+      border-radius: 2px;
+      color: aqua;
+      font-size: 17px;
+      padding: 12px;
+
+}
+
+input[type=text]:focus{
+      background-color: #ffffff;
+      color: #ffa4ff;
+}
+
+input[type=button]{
+      width: 150px;
+      margin-left: 35%;
+      margin-top: 40px;
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      background-color: blue;
+      color: azure;
+      font-size: 17px;
+      padding: 14px 16px;
+
+}
+
+input[type=button]:hover{
+      background-color: skyblue;
+}
+
+.age{
+      display: block;
+      margin: 10px;
+      margin-top: 35px;
+      padding-bottom: 10px;
+      overflow: hidden;
+      font-family: sans-serif;
+      font-size: 23px;
+      font-weight: normal;
+      line-height: 1.5px;
+      word-spacing: 2.7px;
+      color: navy;
+      padding: 15px;
+
+}
